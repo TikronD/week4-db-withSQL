@@ -1,0 +1,41 @@
+body {
+  background-color: #fff;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-width: 300px;
+}
+
+img {
+  width: 600px;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  gap: 2rem;
+  border: 10px solid #1c2c59;
+  border-radius: 20px;
+  border-style: outset;
+}
+
+button {
+  border: 5px solid #1c2c59;
+  border-radius: 2px;
+  border-style: outset;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 300px;
+  }
+  form {
+    width: 300px;
+  }
+}

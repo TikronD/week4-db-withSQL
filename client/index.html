@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 4 - Visitor Guestbook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app" defer type="module"></script>
+  </head>
+  <body>
+    <img
+      src="./images/TheOriginalLogo.jpg"
+      alt="Restaurant Logo - The Original"
+    />;
+    <form id="messageForm">
+      <label>Guest Name</label>
+      <input name="guest" placeholder="John Doe..." />
+
+      <lable>Feedback</lable>
+      <input name="message" placeholder="Your feedback here..." />
+
+      <button>Submit</button>
+
+      <div id="messageContainer"></div>
+      <!-- message will be added dynamically here: -->
+    </form>
+  </body>
+</html>
